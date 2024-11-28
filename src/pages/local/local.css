@@ -1,0 +1,109 @@
+.container-locat {
+    margin-top: 25px;
+    z-index: 1001;
+}
+
+.button {
+    width: 317px;
+    height: 42px;
+    background-color: #ffffff;
+    text-align: center;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    border-radius: 15px;
+    margin: 0.25rem;
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.5);
+    border: none;
+    position: relative;
+    color: #6a6a6a;
+}
+
+.bg-i {
+    width: 30px;
+    height: 30px;
+    background-color: #c4c4c4;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 0.25rem;
+    font-size: 18px;
+    position: absolute;
+    left: 2rem;
+
+}
+
+.bg-red {
+    background-color: #FFD7D7;
+}
+
+.red {
+    color: #FF3D00;
+}
+
+.bg-green {
+    background-color: #C4F6DB;
+}
+
+.green {
+    color: #14BF61;
+}
+
+.sub-container-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 42px;
+
+}
+
+.button-b {
+    width: 212px;
+    height: 42px;
+    background-color: #ffffff;
+    text-align: center;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    border-radius: 15px 0px 0px 15px;
+    margin: 0.25rem 0;
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.5);
+    border: none;
+    position: relative;
+    color: #6a6a6a;
+}
+
+.h4{
+    margin-bottom: 0;
+    margin-left: 70px;
+    font-size: 16px;
+}
+
+.button-c {
+    width: 105px;
+    height: 42px;
+    background-color: #ffffff;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0px 15px 15px 0px;
+    margin: 0.25rem 0;
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.5);
+    border: none;
+    color: #6a6a6a;
+}
+
+.search-btn {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    color: #eb0000;
+    font-size: 20px;
+    cursor: pointer;
+}
